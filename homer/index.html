@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.5">
+    <title>Palace Of Joy website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/poj.png"></a>
+            <div class="nav-links" id="navLink">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a herf="">Home</a></li>
+                    <li><a herf="">About</a></li>
+                    <li><a herf="">Collections</a></li>
+                    <li><a herf="">Photo Album</a></li>
+                    <li><a herf="">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Palace Of Joy Youth Parish</h1>
+            <p>Welcome To Our Blog <br> Please Don't Forget To Follow Our Programs On Our Social Media Platfroms </p>
+            <a href="" class="box-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <!------Programs------->
+    <section class="Programs">
+        <h1>Our Programs</h1>
+        <p>Every Sunday we have two serives .......</p>
+
+        <div></div>
+    </section>
+    <!------Javascipt for Toggle Menu------->
+    <script>
+        var navLink = document.getElementById("navLink")
+        function showMenu() {
+            navLink.style.right = "0px"
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
